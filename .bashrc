@@ -11,6 +11,7 @@ alias sc='screen -c ~/.screenrc'
 alias sls='screen -ls'
 alias dv='dirs -v'
 alias pd='pushd'
+alias ntl='netstat -plnt'
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
