@@ -155,7 +155,7 @@ alias cal='conda env list'
 #git
 alias gcfl='git config --local -l'
 alias gl='git pull'
-gst='git status --untracked-files=no -s'
+alias gst='git status --untracked-files=no -s'
 function ggl() {
   if [[ "$#" != 0 ]] && [[ "$#" != 1 ]]; then
     git pull origin "${*}"
@@ -164,7 +164,6 @@ function ggl() {
     git pull origin "${b:=$1}"
   fi
 }
-compdef _git ggl=git-checkout
 
 function ggp() {
   if [[ "$#" != 0 ]] && [[ "$#" != 1 ]]; then

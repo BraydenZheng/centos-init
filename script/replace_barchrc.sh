@@ -1,4 +1,4 @@
 #!/bin/bash
 mv ~/.bashrc ~/.bashrc_bak
-cp ../bashrc ~/.bashrc
+cp ../.bashrc ~/.bashrc
 source ~/.bashrc
