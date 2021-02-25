@@ -153,6 +153,7 @@ alias caa='conda activate'
 alias cal='conda env list'
 
 #git
+alias gcl='git clone'
 alias gcfl='git config --local -l'
 alias gl='git pull'
 alias gst='git status --untracked-files=no -s'
