@@ -157,6 +157,9 @@ alias gcl='git clone'
 alias gcfl='git config --local -l'
 alias gl='git pull'
 alias gst='git status --untracked-files=no -s'
+function git_current_branch() {
+git rev-parse --abbrev-ref HEAD
+}
 function ggl() {
   if [[ "$#" != 0 ]] && [[ "$#" != 1 ]]; then
     git pull origin "${*}"
